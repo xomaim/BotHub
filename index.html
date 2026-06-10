@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#111;color:#666;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:sans-serif}
+.container{display:flex;flex-direction:column;align-items:center;gap:16px}
+.pfp{width:120px;height:120px;border-radius:50%;object-fit:cover;border:2px solid #2a2a2a}
+.group{display:flex;background:#1a1a1a;border:1px solid #2a2a2a;border-radius:24px;overflow:hidden}
+.soc{background:none;border:none;color:#888;width:42px;height:42px;display:flex;align-items:center;justify-content:center;text-decoration:none;position:relative;transition:.2s;cursor:pointer}
+.soc:hover{color:#bbb;background:#252525}
+.soc:not(:last-child)::after{content:'';position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:18px;background:#2a2a2a}
+.soc svg{width:18px;height:18px;fill:currentColor}
+sub{font-size:12px;color:#555;margin-top:2px}
+</style>
+<base target="_blank">
+</head>
+<body>
+<div class="container">
+<img src="bcc43d71c4e5ac6371dad967ac1eac00.jpg" class="pfp">
+<div class="group">
+<a href="https://guns.lol/xomaim" class="soc" aria-label="Apps" target="_blank"><svg viewBox="0 0 24 24"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg></a>
+<a href="https://discord.gg/QwByTNKR6" class="soc" aria-label="Discord" target="_blank"><svg viewBox="0 0 24 24"><path d="M20.3 4.4a19.8 19.8 0 0 0-4.9-1.5.1.1 0 0 0-.1 0c-.2.4-.4.9-.6 1.3a18.3 18.3 0 0 0-5.5 0 12.6 12.6 0 0 0-.6-1.3.1.1 0 0 0-.1 0 19.7 19.7 0 0 0-4.9 1.5.1.1 0 0 0 0 0C.5 9-.3 13.6.1 18.1a.1.1 0 0 0 0 0 19.9 19.9 0 0 0 6 3 .1.1 0 0 0 .1 0 14.1 14.1 0 0 0 1.2-2 .1.1 0 0 0 0-.1 13.1 13.1 0 0 1-1.9-.9.1.1 0 0 1 0-.1 10.2 10.2 0 0 0 .4-.3.1.1 0 0 1 .1 0c3.9 1.8 8.2 1.8 12.1 0a.1.1 0 0 1 .1 0c.1.1.2.2.4.3a.1.1 0 0 1 0 .1 12.3 12.3 0 0 1-1.9.9.1.1 0 0 0 0 .1c.4.7.8 1.4 1.2 2a.1.1 0 0 0 .1 0 19.8 19.8 0 0 0 6-3 .1.1 0 0 0 0 0c.5-5.2-.8-9.7-3.5-13.7a.1.1 0 0 0 0 0zM8 15.3c-1.2 0-2.2-1.1-2.2-2.4 0-1.3 1-2.4 2.2-2.4 1.2 0 2.2 1.1 2.2 2.4 0 1.3-1 2.4-2.2 2.4zm8 0c-1.2 0-2.2-1.1-2.2-2.4 0-1.3 1-2.4 2.2-2.4 1.2 0 2.2 1.1 2.2 2.4 0 1.3-1 2.4-2.2 2.4z"/></svg></a>
+</div>
+<sub>Completely free and keyless.</sub>
+</div>
+</body>
+</html>
